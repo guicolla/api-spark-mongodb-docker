@@ -1,0 +1,20 @@
+spark:
+  image: guicolla/hadoop_spark
+  container_name: spark
+  links:
+   - mongo
+
+api:
+   image: guicolla/api_mongodb
+   container_name: api
+   links:
+    - mongo
+   ports: 
+    - 5000:5000
+
+mongo:
+   image: guicolla/mongodb
+   container_name: mongo
+   ports:
+    - 27017:27017
+
