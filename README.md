@@ -1,6 +1,6 @@
 # Spark MongoDB API
 Three docker containers, the first contain a hadoop with spark 2.2.1, the second contain a mongodb server and the third contain a api to access mongodb data
-##Prerequisites
+## Prerequisites
 * Docker
 * Docker Compose
 
