@@ -8,7 +8,11 @@ Three docker containers, the first contain a hadoop with spark 2.2.1, the second
 If you want to see or modify the dockerfiles, you can find them in the folder with their names
 
 ## Execute
-To run the application you need to do, in the directory of docker-compose.yml:
+First thing, you need to clone this repository
+```
+git clone https://github.com/guicolla/api-spark-mongodb-docker.git
+```
+Next you need run the application you need to do, in the directory of docker-compose.yml:
 ```
 docker-compose up
 ```
