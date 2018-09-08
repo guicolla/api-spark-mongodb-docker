@@ -12,6 +12,10 @@ First thing, you need to clone this repository
 ```
 git clone https://github.com/guicolla/api-spark-mongodb-docker.git
 ```
+Enter in the directory
+```
+cd api-spark-mongodb-docker/
+```
 Next you need run the application you need to do, in the directory of docker-compose.yml:
 ```
 docker-compose up
